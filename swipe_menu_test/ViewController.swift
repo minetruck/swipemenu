@@ -64,11 +64,8 @@ extension ViewController: SwipeMenuViewDataSource {
     }
     
     func swipeMenuView(_ swipeMenuView: SwipeMenuView, viewControllerForPageAt index: Int) -> UIViewController {
-        let vc = ContentViewController()
-        
-        //vc.content = datas[index]
-        
-        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ContentViewController") as! ContentViewController
+        vc.content = datas[index]
         return vc
     }
 }
