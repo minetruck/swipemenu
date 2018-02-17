@@ -44,7 +44,7 @@
         <!--Content View Controller-->
         <scene sceneID="Hne-Y1-1f0">
             <objects>
-                <viewController id="XwT-WX-NWT" customClass="ContentViewController" customModule="swipe_menu_test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XwT-WX-NWT" customClass="ContentViewController" customModule="swipe_menu_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i6i-zQ-Y3k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
